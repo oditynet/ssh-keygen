@@ -40,4 +40,4 @@ for (( j=1; j<= $count; j++ )); do
 done
 
 
-# ssh root@$name$i 'echo "alias ssh=\"ssh -i /root/.ssh/migrat\"" >>/root/.bashrc'
+ssh root@$name$i 'echo "alias ssh=\"ssh -i /root/.ssh/migrate\"" >>/root/.bashrc'
