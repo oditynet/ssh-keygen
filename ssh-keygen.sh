@@ -41,3 +41,4 @@ done
 
 
 ssh root@$name$i 'echo "alias ssh=\"ssh -i /root/.ssh/migrate\"" >>/root/.bashrc'
+ssh root@$name$i 'echo "alias scp=\"scp -i /root/.ssh/migrate\"" >>/root/.bashrc'
